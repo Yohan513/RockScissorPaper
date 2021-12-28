@@ -51,7 +51,7 @@ public class RockScissorPaper {
 			}
 		}
 			return result;
-	}
+	  }
 	  
 	  public static void write()
 	  {
