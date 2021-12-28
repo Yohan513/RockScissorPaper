@@ -22,21 +22,15 @@ public class RockScissorPaper {
 			  }
 			  gameCount += 1;
 		  }
-		  
 		  System.out.println(gameCount + "전" + winCount + "승" + drawCount + "무" + loseCount + "패" + " 승률" + Math.round(((float) winCount / gameCount * 100)) + "%");
 	  }
 
 	  public static void main(String args[]) throws IOException
 	  {
 	        RockScissorPaper game = new RockScissorPaper();
-	        String str = "Hello!";
 
 	        // game start
 	        while(true){
-	        	TextFileLoad();
-	        	if(str == "Hello!") {
-	        		break;
-	        	}
 
 
 	        }
