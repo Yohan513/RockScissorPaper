@@ -7,51 +7,51 @@ public class RockScissorPaper {
 	  public static String log = "";
 	  
 	  public static String play() throws IOException {
-			BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-			String U = bf.readLine();
-			String result = "";
-			Random rand = new Random();
-			int ranNum = rand.nextInt(3);
-			
-			if(U.equals("Rock")) {
-				switch(ranNum) {
-					case 0:
-						result = "무";
-						break;
-					case 1:
-						result = "승";
-						break;
-					case 2:
-						result = "패";
-						break;
-				}
-			} else if(U.equals("Scissor")) {
-				switch(ranNum) {
-					case 0:
-						result = "패";
-						break;
-					case 1:
-						result = "무";
-						break;
-					case 2:
-						result = "승";
-						break;
-				} 
-			} else if(U.equals("Paper")) {
-				switch(ranNum) {
-					case 0:
-						result = "승";
-						break;
-					case 1:
-						result = "패";
-						break;
-					case 2:
-						result = "무";
-						break;
-				}
+		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+		String U = bf.readLine();
+		String result = "";
+		Random rand = new Random();
+		int ranNum = rand.nextInt(3);
+		
+		if(U.equals("Rock")) {
+			switch(ranNum) {
+				case 0:
+					result = "무";
+					break;
+				case 1:
+					result = "승";
+					break;
+				case 2:
+					result = "패";
+					break;
 			}
-			return result;
+		} else if(U.equals("Scissor")) {
+			switch(ranNum) {
+				case 0:
+					result = "패";
+					break;
+				case 1:
+					result = "무";
+					break;
+				case 2:
+					result = "승";
+					break;
+			} 
+		} else if(U.equals("Paper")) {
+			switch(ranNum) {
+				case 0:
+					result = "승";
+					break;
+				case 1:
+					result = "패";
+					break;
+				case 2:
+					result = "무";
+					break;
+			}
 		}
+			return result;
+	}
 	  
 	  public static void write()
 	  {
