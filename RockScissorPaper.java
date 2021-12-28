@@ -1,5 +1,3 @@
-package game.rockscissorpaper;
-
 public class RockScissorPaper {
 	  RockScissorPaper(){}
 
