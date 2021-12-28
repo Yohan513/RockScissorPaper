@@ -1,7 +1,17 @@
 package game.rockscissorpaper;
 
-public class Main {
-	public static void main(String[] args) {
-		System.out.println("Hello World!");
-	}
+public class RockScissorPaper {
+	  RockScissorPaper(){}
+
+	  public static void main(String args[])
+	  {
+	        RockScissorPaper game = new RockScissorPaper();
+
+	        // game start
+	        while(true){
+
+
+
+	        }
+	  }
 }
