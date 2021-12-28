@@ -13,16 +13,17 @@ public class RockScissorPaper {
 		  int winCount = 0, drawCount = 0, loseCount = 0, gameCount = 0;
 		  while((ch = reader.read()) != -1) {
 			  result = (char) ch;
-			  if(result == '½Â') {
+			  if(result == 'ìŠ¹') {
 				  winCount += 1;
-			  } else if(result == '¹«') {
+			  } else if(result == 'ë¬´') {
 				  drawCount += 1;
-			  } else if(result == 'ÆÐ') {
+			  } else if(result == 'íŒ¨') {
 				  loseCount += 1;
 			  }
 			  gameCount += 1;
 		  }
-		  System.out.println(gameCount + "Àü" + winCount + "½Â" + drawCount + "¹«" + loseCount + "ÆÐ" + " ½Â·ü" + Math.round(((float) winCount / gameCount * 100)) + "%");
+		  
+		  System.out.println(gameCount + "ì „" + winCount + "ìŠ¹" + drawCount + "ë¬´" + loseCount + "íŒ¨" + " ìŠ¹ë¥ " + Math.round(((float) winCount / gameCount * 100)) + "%");
 	  }
 
 	  public static void main(String args[]) throws IOException
