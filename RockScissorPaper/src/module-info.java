@@ -1,0 +1,2 @@
+module RockScissorPaper {
+}
